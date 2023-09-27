@@ -13,8 +13,39 @@ body{
     margin-top: -15px;
     position: absolute;
     width: 15%;
-    height: 100vh;
+    height: 100%;
     background-color: rgb(48, 47, 47);
+}
+/* #Home-menu{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#home{
+    height: 30px;
+    margin-left: 10px;
+}
+#home-text{
+    font-weight: bold;
+    color: white;
+    margin-top: -25px;
+    margin-left: 50px;
+}
+#seach-menu{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#search{
+    height: 30px;
+    margin-left: 10px;
+}
+#search-text{
+    font-weight: bold;
+    color: white;
+    margin-top: -25px;
+    margin-left: 50px;
+} */
+.menus img{
+    height: 30px;
 }
 #logo{
     height: 40px;
@@ -237,5 +268,62 @@ body{
     height: 25px;
     margin-left: 80px;
     margin-top: 30px;
+}
+.menus{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    padding: 5px;
+}
+.menus p{
+    color: white;
+    margin-left: 10px;
+}
+#song-playlist{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+}
+#song-playlist .playlist{
+    display: flex;
+    align-items: center;
+}
+#list1,#list2,#list3{
+    height: 30px;
+    margin-left: 15px;
+}
+#list2{
+    margin-top: 5px;
+}
+#list3{
+    margin-top: 5px;
+}
+#list-text1,#list-text2,#list-text3{
+    margin-left: 10px;
+    color: white;
+}
+#user-option{
+    font-size: 13px;
+    margin-top: 13px;
+    color: white;
+    margin-left: 15px;
+}
+#install-opt{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+#arrow-down{
+    height: 25px;
+    margin-left: 15px;
+}
+#install-txt{
+    font-size:13px;
+    margin-left: 5px;
+    color: white;
+}
+#home-opt{
+    border-radius: 5px;
+    /* border: 1px solid red; */
+    background-color: gray;
 }
 
